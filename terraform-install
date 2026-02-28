@@ -1,0 +1,34 @@
+terraform
+https://developer.hashicorp.com/certifications/infrastructure-automation
+
+installation	https://developer.hashicorp.com/terraform/install	386		Version: 1.14.5
+cpoy binary file from above file 86		Version: 1.14.5 to the c drive bin folder.	>> environment varibale set it as.>>	C:\bin
+
+download the aws cli for windows	https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html and download msi in windows. run this as a double click on it.
+
+terraform user creation throught IAM terraform user >>security_credentials >>Create Access keys in group of vishal-batch42 admin full access we can give. and create it.
+	next we will create access key secret key in cli mode using 
+	aws_access_key    =
+	aws_secret_key    = 
+C:\Users\Mylapkart>aws configure									terraform user created in IAM.
+	AWS Access Key ID [None]: AKIAR
+	AWS Secret Access Key [None]: FquZ9A
+	Default region name [None]:
+	Default output format [None]:"
+
+
+in our project directory D:\A VISHAL STUDY\batch-42 :	git clone https://github.com/DevSecOpsG/terraformcode.git
+
+we will use terraform init plan and apply in VS code terminal as well as in git bash.
+
+   55  cd terraformcode/
+   56  ls -ltrh
+   57  cd ec2/
+   58  ls -ltrh
+   59  ls -ltrh
+   60  vi main.tf
+   61  ls -ltrh
+   62  terraform init
+   63  terraform plan
+   64  terraform apply
+	   terraform destroy
